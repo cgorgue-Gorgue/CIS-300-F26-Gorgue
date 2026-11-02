@@ -1,9 +1,40 @@
 #banner {
-    background-image: url("./2026_Gorgue_Chloe_LL.png");
+    background-image: url("./Drawing.png");
     background-size: 100% 100%;
     color: #FFFFFF;
     background-color: #ffffff;
     background-repeat: no-repeat;
     height:1080px; 
+    padding: 0;
 }
 
+header {
+    background-color: #ffc229;
+    color: #FFFFFF;
+    padding: 0px;
+    text-align: center;
+    
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FFFFFF;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #f03e3e;
+}
+
+nav{
+    background-color: #fdf6ed;
+    text-align: center;
+    
+}
