@@ -12,44 +12,55 @@
 
 #aboutme {
     background-image: url("./Drawing.png");
-    background-size: 80% 20%;
+    background-size: 100% 100%;
     color: #FFFFFF;
     background-color: #ffffff;
     background-repeat: no-repeat;
-    height:800px; 
+    height:200px; 
     margin: 0;
     padding: 0;
 }
 
 #cv {
     background-image: url("./Drawing.png");
-    background-size: 80% 20%;
+    background-size: 100% 100%;
     color: #FFFFFF;
     background-color: #ffffff;
     background-repeat: no-repeat;
-    height:800px; 
+    height:200px; 
     margin: 0;
     padding: 0;
 }
 
 #portfolio {
     background-image: url("./Drawing.png");
-    background-size: 80% 20%;
+    background-size: 100% 100%;
     color: #FFFFFF;
     background-color: #ffffff;
     background-repeat: no-repeat;
-    height:800px; 
+    height:200px; 
     margin: 0;
     padding: 0;
 }
 
 #contact {
     background-image: url("./Drawing.png");
-    background-size: 80% 20%;
+    background-size: 100% 100%;
     color: #FFFFFF;
     background-color: #ffffff;
     background-repeat: no-repeat;
-    height:800px; 
+    height:200px; 
+    margin: 0;
+    padding: 0;
+}
+
+#picofme {
+    background-image: url("./Me.png");
+    color: #FFFFFF;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    height: 500px;
     margin: 0;
     padding: 0;
 }
@@ -66,12 +77,16 @@
 
 /*header*/
 header {
-    background-color: #ffc229;
-    color: #FFFFFF;
-    padding: 5px;
-    margin: 0;
+    background-color: #dd50a9;
+    color: #fdf6ed;
+    padding: 0.0010em;
+    margin: 0px;
     text-align: center;
-    font-size: 100%;
+    font-size: 30px;
+
+    font-family: 'Bagel Fat One', cursive;
+    text-shadow: 2px 2px #07296a;
+    letter-spacing: 5px;
 }
 
 header a {
@@ -87,14 +102,14 @@ header a:visited {
 }
 
 header a:hover {
-    color: #f03e3e;
+    color: #ffc229;
 }
 
 /*navigation bar*/
 nav{
     background-color: #fdf6ed;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
 }
 
@@ -116,11 +131,20 @@ nav a {
 body {
     font-family: Arial, sans-serif;
     color: #07296a;
+    background-color: #fdf6ed;
     font-size: 1.2em;
+    font-family: 'Comic Relief', cursive;
 }
 h2 {
     background-color: #ffc229;
     color: #FFFFFF;
+    text-shadow: 2px 2px #07296a;
     padding: 10px;
+    padding-left: 20px;
     margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
 }
