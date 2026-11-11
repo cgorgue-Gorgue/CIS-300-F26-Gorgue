@@ -155,7 +155,16 @@ h2 {
 
 
 
+table {
+    border: 2px solid #07296a;
+    border-collapse: collapse;
+}
 
+td, th {
+    border: 2px solid #07296a;
+    padding: 10px;
+    text-align: center;
+}
 
 
 
