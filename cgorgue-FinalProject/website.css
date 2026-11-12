@@ -10,6 +10,17 @@
     padding: 0;
     overflow:hidden;
 }
+#Mebanner {
+    background-image: url("./AboutMeBanner.png");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    height:500px; 
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
 
 #aboutme {
     background-image: url("./Drawing.png");
@@ -155,9 +166,15 @@ h2 {
 h3{
     font-size: 1em;
     text-align: center;
+    background-color: #ffc229;
+    color: #FFFFFF;
+    padding: 10px;
+    text-shadow: 2px 2px #07296a;
 }
 
-
+p {
+    padding-left: 20px;
+}
 
 
 /*footer*/
@@ -169,6 +186,7 @@ footer{
     padding: 2em;
     color: #FFFFFF;
     background-color: #f6234a;
+    margin-top: 20px;
 }
 
 
@@ -182,6 +200,14 @@ td, th {
     border: 2px solid #07296a;
     padding: 10px;
     text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #ffebbb;
 }
 
 
