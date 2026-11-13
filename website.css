@@ -1,0 +1,219 @@
+/*images*/
+#banner {
+    background-image: url("./Bannerimg.png");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    height:500px; 
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+#Mebanner {
+    background-image: url("./AboutMeBanner.png");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    height:500px; 
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+#aboutme {
+    background-image: url("./Drawing.png");
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height:200px; 
+    margin: 0;
+    padding: 0;
+}
+
+#cv {
+    background-image: url("./Drawing.png");
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height:200px; 
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio {
+    background-image: url("./Drawing.png");
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height:200px; 
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    background-image: url("./Drawing.png");
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height:200px; 
+    margin: 0;
+    padding: 0;
+}
+
+#picofme {
+    background-image: url("./Me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 500px;
+    margin: .5in;
+    padding: 3px;
+
+    border: 3px solid #07296a;
+    
+}
+.flow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flow section {
+    flex: 1;
+}
+
+
+/*header*/
+header {
+    background-color: #dd50a9;
+    color: #fdf6ed;
+    padding: 0.0010em;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+
+    font-family: 'Bagel Fat One', cursive;
+    text-shadow: 2px 2px #07296a;
+    letter-spacing: 5px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FFFFFF;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #ffc229;
+}
+
+/*navigation bar*/
+nav{
+    background-color: #fdf6ed;
+    text-align: center;
+    padding: 1px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dd50a9;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    text-shadow: 2px 2px #07296a;
+}
+
+/*bodymain*/
+
+body {
+    font-family: Arial, sans-serif;
+    color: #07296a;
+    background-color: #fdf6ed;
+    font-size: 1.2em;
+    font-family: 'Comic Relief', cursive;
+}
+h2 {
+    background-color: #ffc229;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #07296a;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1em;
+    text-align: center;
+    background-color: #ffc229;
+    color: #FFFFFF;
+    padding: 10px;
+    text-shadow: 2px 2px #07296a;
+}
+
+p {
+    padding-left: 20px;
+}
+
+
+/*footer*/
+footer{
+    font-size: 75%;
+    font-style: italic;
+    text-align: left;
+    text-decoration: none;
+    padding: 2em;
+    color: #FFFFFF;
+    background-color: #f6234a;
+    margin-top: 20px;
+}
+
+
+/*table in CV Page*/
+table {
+    border: 2px solid #07296a;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid #07296a;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #ffebbb;
+}
+
+
+/*form in contact page*/
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
